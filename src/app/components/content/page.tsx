@@ -13,51 +13,10 @@ const Content = () => {
             >
               {/* <!-- Carousel wrapper --> */}
               <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-                {/* <!-- Item 1 --> */}
                 <div className="duration-700 ease-in-out" data-carousel-item>
                   <Image
                     className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    src="/image.png"
-                    width={300}
-                    height={300}
-                    alt="Picture of the ..."
-                  />
-                </div>
-                {/* <!-- Item 2 --> */}
-                <div className="duration-700 ease-in-out" data-carousel-item>
-                  <Image
-                    className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    src="/project.png"
-                    width={300}
-                    height={300}
-                    alt="Picture of the ..."
-                  />
-                </div>
-                {/* <!-- Item 3 --> */}
-                <div className="duration-700 ease-in-out" data-carousel-item>
-                  <Image
-                    className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    src="/image.png"
-                    width={300}
-                    height={300}
-                    alt="Picture of the ..."
-                  />
-                </div>
-                {/* <!-- Item 4 --> */}
-                <div className="duration-700 ease-in-out" data-carousel-item>
-                  <Image
-                    className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    src="/image.png"
-                    width={300}
-                    height={300}
-                    alt="Picture of the ..."
-                  />
-                </div>
-                {/* <!-- Item 5 --> */}
-                <div className="duration-700 ease-in-out" data-carousel-item>
-                  <Image
-                    className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    src="/image.png"
+                    src="/github.png"
                     width={300}
                     height={300}
                     alt="Picture of the ..."
@@ -154,13 +113,18 @@ const Content = () => {
             </div>
             <div className="p-4 lg:w-1/4 md:w-1/2">
               <div className="flex-wrap ml-14">
-                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 underline underline-offset-2">
-                  Our Projects
-                </h1>
+                <a
+                  href=""
+                  className="text-blue-500 underline underline-offset-4"
+                >
+                  <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
+                    Our Projects
+                  </h1>
+                </a>
                 <p className="mb-16 text-lg">
                   We envision a future where businesses seamlessly.
                 </p>
-                <div className="text-blue-400 font-bold underline text-xl">
+                <div className="text-blue-500 text-[24px] hover:underline">
                   <a href="#">See all projects</a>
                 </div>
               </div>
@@ -173,5 +137,3 @@ const Content = () => {
 };
 
 export default Content;
-
-

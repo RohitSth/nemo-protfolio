@@ -19,12 +19,12 @@ const Header = () => {
             <span className="ml-3 text-xl">nemo</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-20  text-lg hover:text-gray-500">Home</a>
-            <a className="mr-20  text-lg hover:text-gray-500">Services</a>
-            <a className="mr-20  text-lg hover:text-gray-500">About</a>
-            <a className="mr-20  text-lg hover:text-gray-500">Carrer</a>
+            <a className="mr-10  text-[24px] hover:text-[#0D7ABF]">Home</a>
+            <a className="mr-10  text-[24px] hover:text-[#0D7ABF]">Services</a>
+            <a className="mr-10  text-[24px] hover:text-[#0D7ABF]">About</a>
+            <a className="mr-10  text-[24px] hover:text-[#0D7ABF]">Carrer</a>
           </nav>
-          <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-xl text-lg">
+          <button className="inline-flex text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-[24px]">
             Contact
           </button>
         </div>

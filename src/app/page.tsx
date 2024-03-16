@@ -7,10 +7,12 @@ import IndustryPage from "./components/industry/page";
 import Customer from "./components/customer/page";
 import Testimonial from "./components/testimonial/page";
 import Footer from "./components/footer/page";
+import Info from "./components/info/page";
 
 export default function Home() {
   return (
     <main>
+      <Info />
       <Header />
       <Hero />
       <StatisticsPage />

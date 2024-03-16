@@ -3,11 +3,16 @@ import Image from "next/image";
 const Testimonial = () => {
   return (
     <>
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font bg-[#76ABD1]">
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
-            Testimonials
-          </h1>
+          <a
+            href=""
+            className="text-blue-800 underline underline-offset-4 flex justify-center mb-9"
+          >
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
+              What other say about us!
+            </h1>
+          </a>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-100 p-8 rounded">
