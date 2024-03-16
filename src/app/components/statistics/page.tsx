@@ -3,35 +3,27 @@ const StatisticsPage = () => {
     <>
       <section className="text-gray-600 body-font">
         <div
-          className=" p-4 md:p-8 light:bg-gray-800 light:text-black-200"
+          className=" p-4 md:p-8 light:bg-gray-800 light:text-black-200 mx-auto mb-[50px]"
           id="stats"
           role="tabpanel"
           aria-labelledby="stats-tab"
         >
-          <dl className="flex justify-center gap-x-32">
+          <dl className="flex justify-center gap-x-32 text-black">
             <div className="flex flex-col items-center justify-center">
-              <dt className="mb-2 text-3xl font-extrabold">73M+</dt>
-              <dd className="text-gray-500 dark:text-gray-400 font-bold">
-                Developers
-              </dd>
+              <dt className="text-[64px] font-extrabold">+20</dt>
+              <dd className="mt-[-16px] font-bold text-[24px]">Projects</dd>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <dt className="mb-2 text-3xl font-extrabold">100M+</dt>
-              <dd className="text-gray-500 dark:text-gray-400 font-bold">
-                Public repositories
-              </dd>
+              <dt className="text-[64px] font-extrabold">+50M</dt>
+              <dd className="mt-[-16px] font-bold text-[24px]">Line Of Code</dd>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <dt className="mb-2 text-3xl font-extrabold">1000s</dt>
-              <dd className="text-gray-500 dark:text-gray-400 font-bold">
-                Open source projects
-              </dd>
+              <dt className="text-[64px] font-extrabold">+50</dt>
+              <dd className="mt-[-16px] font-bold text-[24px]">Team</dd>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <dt className="mb-2 text-3xl font-extrabold">1B+</dt>
-              <dd className="text-gray-500 dark:text-gray-400 font-bold">
-                Contributors
-              </dd>
+              <dt className="text-[64px] font-extrabold">&#8734;</dt>
+              <dd className="mt-[-16px] font-bold text-[24px]">Opportunity</dd>
             </div>
           </dl>
         </div>
