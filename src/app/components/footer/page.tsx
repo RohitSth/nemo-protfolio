@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <>
-      <footer className="text-white body-font bg-[#0D7ABF]">
-        <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <footer id="footer" className="text-white body-font bg-[#0D7ABF]">
+        <div className="container px-5 py-24 mx-auto flex flex-row ">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center">
               <svg
@@ -17,74 +19,112 @@ const Footer = () => {
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
-              <span className="ml-3 text-xl">Tailblocks</span>
+              <span className="ml-3 text-xl">LOGO</span>
             </a>
-            <p className="mt-2 text-sm">
-              Air plant banjo lyft occupy retro adaptogen indego
-            </p>
+            <p className="mt-2 text-sm">INOVATE. CREATE. DOMINATE.</p>
+            <hr className="my-8" />
+            <small>&copy; 2019 Nemo. Property All Rights Reserved</small>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4 ml-32">
               <h2 className="title-font font-medium tracking-widest text-sm mb-3">
-                CATEGORIES
+                Quick Links
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="list-none my-10">
                 <li>
-                  <a className="hover:underline">First Link</a>
+                  <a className="hover:underline">Nemo Writes</a>
                 </li>
                 <li>
-                  <a className="hover:underline">Second Link</a>
+                  <a className="hover:underline">Portfolio</a>
                 </li>
                 <li>
-                  <a className="hover:underline">Third Link</a>
+                  <a className="hover:underline">Our Company</a>
+                </li>
+                <li>
+                  <a className="hover:underline">Career</a>
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4 mx-16">
               <h2 className="title-font font-medium tracking-widest text-sm mb-3">
-                CATEGORIES
+                Contact Us
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="list-none my-10">
                 <li>
-                  <a className="hover:underline">First Link</a>
+                  <a className="hover:underline">
+                    123 street, Chabahil first floor, Kathmandu, Nepal
+                  </a>
                 </li>
                 <li>
-                  <a className="hover:underline">Second Link</a>
+                  <a className="hover:underline">info.@asknemo.com.np</a>
                 </li>
                 <li>
-                  <a className="hover:underline">Third Link</a>
+                  <a className="hover:underline">+977 9874563210</a>
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium tracking-widest text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="hover:underline">First Link</a>
+
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4 ml-8 flex justify-end">
+              <nav className="list-none mb-10 ml-20">
+                <li className="my-2">
+                  <a>
+                    <Image
+                      src="/twitter.png"
+                      width={25}
+                      height={25}
+                      alt="twitter logo"
+                    />
+                  </a>
                 </li>
-                <li>
-                  <a className="hover:underline">Second Link</a>
+                <li className="my-2">
+                  <a>
+                    <Image
+                      src="/twitter.png"
+                      width={25}
+                      height={25}
+                      alt="twitter logo"
+                    />
+                  </a>
                 </li>
-                <li>
-                  <a className="hover:underline">Third Link</a>
+                <li className="my-2">
+                  <a>
+                    <Image
+                      src="/twitter.png"
+                      width={25}
+                      height={25}
+                      alt="twitter logo"
+                    />
+                  </a>
                 </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium tracking-widest text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="hover:underline">First Link</a>
+                <li className="my-2">
+                  <a>
+                    <Image
+                      src="/twitter.png"
+                      width={25}
+                      height={25}
+                      alt="twitter logo"
+                    />
+                  </a>
                 </li>
-                <li>
-                  <a className="hover:underline">Second Link</a>
+                <li className="my-2">
+                  <a>
+                    <Image
+                      src="/twitter.png"
+                      width={25}
+                      height={25}
+                      alt="twitter logo"
+                    />
+                  </a>
                 </li>
-                <li>
-                  <a className="hover:underline">Third Link</a>
+                <li className="my-2">
+                  <a>
+                    <Image
+                      src="/twitter.png"
+                      width={25}
+                      height={25}
+                      alt="twitter logo"
+                    />
+                  </a>
                 </li>
               </nav>
             </div>
