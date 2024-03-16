@@ -19,29 +19,23 @@ const Header = () => {
             <span className="ml-3 text-xl">nemo</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="/" className="mr-10  text-[24px] hover:text-[#0D7ABF]">
+            <a href="/" className="mr-10  text-base hover:text-[#0D7ABF]">
               Home
             </a>
             <a
               href="#service-page"
-              className="mr-10  text-[24px] hover:text-[#0D7ABF]"
+              className="mr-10  text-base hover:text-[#0D7ABF]"
             >
               Services
             </a>
-            <a
-              href="#about"
-              className="mr-10  text-[24px] hover:text-[#0D7ABF]"
-            >
+            <a href="#about" className="mr-10  text-base hover:text-[#0D7ABF]">
               About
             </a>
-            <a
-              href="#footer"
-              className="mr-10  text-[24px] hover:text-[#0D7ABF]"
-            >
+            <a href="#footer" className="mr-10  text-base hover:text-[#0D7ABF]">
               Carrer
             </a>
           </nav>
-          <button className="inline-flex text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-[24px]">
+          <button className="inline-flex text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-base">
             Contact
           </button>
         </div>

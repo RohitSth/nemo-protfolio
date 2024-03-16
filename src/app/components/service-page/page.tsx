@@ -8,19 +8,14 @@ const ServicePage = () => {
           <div className="flex -m-4">
             <div className="p-4 lg:w-1/4 md:w-1/2">
               <div>
-                <a
-                  href=""
-                  className="text-blue-500 underline underline-offset-4"
-                >
-                  <h1 className="title-font text-[44px] mb-4 font-medium text-black ">
-                    Our Services
-                  </h1>
-                </a>
-                <p className="mb-16 text-[20px]">
+                <h1 className="title-font text-4xl mb-4 font-bold text-black ">
+                  Our Services
+                </h1>
+                <p className="mb-16 text-sm">
                   We envision a future where businesses seamlessly.
                 </p>
-                <div className="text-blue-500 text-[24px] hover:underline">
-                  <a href="#">See all services</a>
+                <div className="text-blue-500 text-sm hover:underline">
+                  <a href="#">See all services &gt;</a>
                 </div>
               </div>
             </div>

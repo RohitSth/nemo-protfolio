@@ -45,7 +45,7 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4 mx-16">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4 mx-5">
               <h2 className="title-font font-medium tracking-widest text-sm mb-3">
                 Contact Us
               </h2>
@@ -65,13 +65,13 @@ const Footer = () => {
             </div>
 
             <div className="lg:w-1/4 md:w-1/2 w-full px-4 ml-8 flex justify-end">
-              <nav className="list-none mb-10 ml-20">
+              <nav className="list-none mb-10 ">
                 <li className="my-2">
                   <a>
                     <Image
-                      src="/twitter.png"
-                      width={25}
-                      height={25}
+                      src="/facebook.png"
+                      width={24}
+                      height={24}
                       alt="twitter logo"
                     />
                   </a>
@@ -79,9 +79,9 @@ const Footer = () => {
                 <li className="my-2">
                   <a>
                     <Image
-                      src="/twitter.png"
-                      width={25}
-                      height={25}
+                      src="/instagram.png"
+                      width={24}
+                      height={24}
                       alt="twitter logo"
                     />
                   </a>
@@ -89,9 +89,9 @@ const Footer = () => {
                 <li className="my-2">
                   <a>
                     <Image
-                      src="/twitter.png"
-                      width={25}
-                      height={25}
+                      src="/twitter-foot.png"
+                      width={24}
+                      height={24}
                       alt="twitter logo"
                     />
                   </a>
@@ -99,9 +99,9 @@ const Footer = () => {
                 <li className="my-2">
                   <a>
                     <Image
-                      src="/twitter.png"
-                      width={25}
-                      height={25}
+                      src="/youtube.png"
+                      width={24}
+                      height={24}
                       alt="twitter logo"
                     />
                   </a>
@@ -109,19 +109,9 @@ const Footer = () => {
                 <li className="my-2">
                   <a>
                     <Image
-                      src="/twitter.png"
-                      width={25}
-                      height={25}
-                      alt="twitter logo"
-                    />
-                  </a>
-                </li>
-                <li className="my-2">
-                  <a>
-                    <Image
-                      src="/twitter.png"
-                      width={25}
-                      height={25}
+                      src="/linkedin-footer.png"
+                      width={24}
+                      height={24}
                       alt="twitter logo"
                     />
                   </a>

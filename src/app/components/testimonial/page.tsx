@@ -5,14 +5,9 @@ const Testimonial = () => {
     <>
       <section id="about" className="text-gray-600 body-font bg-[#76ABD1]">
         <div className="container px-5 py-24 mx-auto">
-          <a
-            href=""
-            className="text-blue-800 underline underline-offset-4 flex justify-center mb-9"
-          >
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-              What other say about us!
-            </h1>
-          </a>
+          <h1 className="flex justify-center title-font text-4xl  mb-12 font-bold text-black">
+            What other say about us!
+          </h1>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-100 p-8 rounded">

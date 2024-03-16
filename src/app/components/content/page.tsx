@@ -8,7 +8,7 @@ const Content = () => {
           <div className="flex -m-4">
             <div
               id="default-carousel"
-              className="relative w-full"
+              className="relative w-3/4"
               data-carousel="slide"
             >
               {/* <!-- Carousel wrapper --> */}
@@ -113,19 +113,14 @@ const Content = () => {
             </div>
             <div className="p-4 lg:w-1/4 md:w-1/2">
               <div className="flex-wrap ml-14">
-                <a
-                  href=""
-                  className="text-blue-500 underline underline-offset-4"
-                >
-                  <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-                    Our Projects
-                  </h1>
-                </a>
-                <p className="mb-16 text-lg">
+                <h1 className="title-font text-4xl mb-4 font-bold text-black">
+                  Our Projects
+                </h1>
+                <p className="mb-16 text-sm">
                   We envision a future where businesses seamlessly.
                 </p>
-                <div className="text-blue-500 text-[24px] hover:underline">
-                  <a href="#">See all projects</a>
+                <div className="text-blue-500 text-sm hover:underline">
+                  <a href="#">&lt; See all projects</a>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ const Customer = () => {
   return (
     <>
       <div className="my-16 flex justify-center">
-        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
+        <h1 className="title-font text-4xl mb-4 font-bold text-black">
           Our Valued Clients
         </h1>
       </div>
@@ -43,14 +43,14 @@ const Customer = () => {
         </ul>
       </div>
       <div>
-        <h1 className=" flex justify-center title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
+        <h1 className=" flex justify-center title-font text-4xl mb-4 font-bold text-black">
           Ready to dive into projects?
         </h1>
-        <div className="flex justify-center">
+        <div className="flex justify-center text-sm">
           <p>Get in touch with our team</p>
         </div>
         <div className="flex justify-center my-7">
-          <button className=" text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-[16px]">
+          <button className=" text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-base">
             CONTACT US
           </button>
         </div>
