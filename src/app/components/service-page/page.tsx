@@ -29,7 +29,7 @@ const ServicePage = () => {
                 <a href="#">
                   <Image
                     className="rounded-t-lg w-full h-full"
-                    src="/calculator.png"
+                    src="/software.png"
                     width={300}
                     height={300}
                     alt="Picture of the author"
@@ -49,7 +49,7 @@ const ServicePage = () => {
                 <a href="#">
                   <Image
                     className="rounded-t-lg w-full h-full"
-                    src="/calculator.png"
+                    src="/marketing.png"
                     width={300}
                     height={300}
                     alt="Picture of the author"
@@ -69,7 +69,7 @@ const ServicePage = () => {
                 <a href="#">
                   <Image
                     className="rounded-t-lg w-full h-full"
-                    src="/calculator.png"
+                    src="/video.png"
                     width={300}
                     height={300}
                     alt="Picture of the author"

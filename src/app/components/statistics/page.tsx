@@ -23,7 +23,9 @@ const StatisticsPage = () => {
             </div>
             <div className="flex flex-col items-center justify-center">
               <dt className="text-[64px] font-extrabold">&#8734;</dt>
-              <dd className="mt-[-16px] font-bold text-[24px]">Opportunity</dd>
+              <dd className="mt-[-16px] font-bold text-[24px]">
+                Opportunities
+              </dd>
             </div>
           </dl>
         </div>
