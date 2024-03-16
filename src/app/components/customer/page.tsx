@@ -50,8 +50,8 @@ const Customer = () => {
           <p>Get in touch with our team</p>
         </div>
         <div className="flex justify-center my-7">
-          <button className=" text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-[24px]">
-            Contact
+          <button className=" text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-[16px]">
+            CONTACT US
           </button>
         </div>
       </div>
