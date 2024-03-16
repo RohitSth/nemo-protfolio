@@ -8,7 +8,7 @@ const Customer = () => {
           Our Valued Clients
         </h1>
       </div>
-      <div className="w-full inline-flex flex-nowrap mb-24">
+      <div className="w-full flex justify-center mb-24">
         <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_Image]:max-w-none">
           <li>
             <Image src="/python.png" alt="" width={100} height={100} />
