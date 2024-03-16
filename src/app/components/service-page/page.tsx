@@ -12,7 +12,7 @@ const ServicePage = () => {
                   href=""
                   className="text-blue-500 underline underline-offset-4"
                 >
-                  <h1 className="title-font text-[44px] mb-4 font-medium text-black">
+                  <h1 className="title-font text-[44px] mb-4 font-medium text-black ">
                     Our Services
                   </h1>
                 </a>

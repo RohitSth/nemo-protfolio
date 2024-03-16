@@ -11,19 +11,19 @@ const StatisticsPage = () => {
           <dl className="flex justify-center gap-x-32 text-gray-700">
             <div className="flex flex-col items-center justify-center">
               <dt className="text-[44px] font-extrabold">+20</dt>
-              <dd className="mt-[-16px] font-bold text-[24px]">Projects</dd>
+              <dd className="mt-[-16px] font-bold text-[18px]">Projects</dd>
             </div>
             <div className="flex flex-col items-center justify-center">
               <dt className="text-[44px] font-extrabold">+50M</dt>
-              <dd className="mt-[-16px] font-bold text-[24px]">Line Of Code</dd>
+              <dd className="mt-[-16px] font-bold text-[18px]">Line Of Code</dd>
             </div>
             <div className="flex flex-col items-center justify-center">
               <dt className="text-[44px] font-extrabold">+50</dt>
-              <dd className="mt-[-16px] font-bold text-[24px]">Team</dd>
+              <dd className="mt-[-16px] font-bold text-[18px]">Team</dd>
             </div>
             <div className="flex flex-col items-center justify-center">
               <dt className="text-[44px] font-extrabold">&#8734;</dt>
-              <dd className="mt-[-16px] font-bold text-[24px]">
+              <dd className="mt-[-16px] font-bold text-[18px]">
                 Opportunities
               </dd>
             </div>
