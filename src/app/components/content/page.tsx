@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+// import { Carousel, initTWE } from "tw-elements";
+
+// initTWE({ Carousel });
+
 const Content = () => {
   return (
     <>
@@ -7,107 +11,107 @@ const Content = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex -m-4">
             <div
-              id="default-carousel"
-              className="relative w-3/4"
-              data-carousel="slide"
+              id="carouselExampleCaptions"
+              className="relative"
+              data-twe-carousel-init
+              data-twe-ride="carousel"
             >
-              {/* <!-- Carousel wrapper --> */}
-              <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-                <div className="duration-700 ease-in-out" data-carousel-item>
-                  <Image
-                    className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                    src="/github.png"
-                    width={300}
-                    height={300}
-                    alt="Picture of the ..."
-                  />
-                </div>
-              </div>
-              {/* <!-- Slider indicators --> */}
-              <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+              {/* Carousel indicators */}
+              <div
+                className="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+                data-twe-carousel-indicators
+              >
+                {/* Indicator buttons */}
                 <button
                   type="button"
-                  className="w-3 h-3 rounded-full"
+                  data-twe-target="#carouselExampleCaptions"
+                  data-twe-slide-to="0"
+                  data-twe-carousel-active
+                  className="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
                   aria-current="true"
                   aria-label="Slide 1"
-                  data-carousel-slide-to="0"
                 ></button>
-                <button
-                  type="button"
-                  className="w-3 h-3 rounded-full"
-                  aria-current="false"
-                  aria-label="Slide 2"
-                  data-carousel-slide-to="1"
-                ></button>
-                <button
-                  type="button"
-                  className="w-3 h-3 rounded-full"
-                  aria-current="false"
-                  aria-label="Slide 3"
-                  data-carousel-slide-to="2"
-                ></button>
-                <button
-                  type="button"
-                  className="w-3 h-3 rounded-full"
-                  aria-current="false"
-                  aria-label="Slide 4"
-                  data-carousel-slide-to="3"
-                ></button>
-                <button
-                  type="button"
-                  className="w-3 h-3 rounded-full"
-                  aria-current="false"
-                  aria-label="Slide 5"
-                  data-carousel-slide-to="4"
-                ></button>
+                {/* Add more indicator buttons as needed */}
               </div>
-              {/* <!-- Slider controls --> */}
+
+              {/* Carousel items */}
+              <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                {/* First item */}
+                <div
+                  className="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-twe-carousel-active
+                  data-twe-carousel-item
+                  style={{ backfaceVisibility: "hidden" }}
+                >
+                  <img
+                    src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg"
+                    className="block w-full"
+                    alt="..."
+                  />
+                  <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                    <h5 className="text-xl">First slide label</h5>
+                    <p>
+                      Some representative placeholder content for the first
+                      slide.
+                    </p>
+                  </div>
+                </div>
+                {/* Add more carousel items as needed */}
+              </div>
+
+              {/* Carousel controls - prev item */}
               <button
+                className="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
                 type="button"
-                className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-prev
+                data-twe-target="#carouselExampleCaptions"
+                data-twe-slide="prev"
               >
-                <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <span className="inline-block h-8 w-8">
                   <svg
-                    className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-                    aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
-                    viewBox="0 0 6 10"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="h-6 w-6"
                   >
                     <path
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M5 1 1 5l4 4"
+                      d="M15.75 19.5L8.25 12l7.5-7.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
-                  <span className="sr-only">Previous</span>
+                </span>
+                <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
+                  Previous
                 </span>
               </button>
+
+              {/* Carousel controls - next item */}
               <button
+                className="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
                 type="button"
-                className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                data-carousel-next
+                data-twe-target="#carouselExampleCaptions"
+                data-twe-slide="next"
               >
-                <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <span className="inline-block h-8 w-8">
                   <svg
-                    className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-                    aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
-                    viewBox="0 0 6 10"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="h-6 w-6"
                   >
                     <path
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="m1 9 4-4-4-4"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
-                  <span className="sr-only">Next</span>
+                </span>
+                <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
+                  Next
                 </span>
               </button>
             </div>
