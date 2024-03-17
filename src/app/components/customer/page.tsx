@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./Customer.module.css";
+
 const Customer = () => {
   return (
     <>
@@ -8,8 +9,8 @@ const Customer = () => {
           Our Valued Clients
         </h1>
       </div>
-      <div className="w-full flex justify-center mb-24 overflow-x-auto whitespace-nowrap">
-        <ul className="inline-flex">
+      <div className="w-full flex justify-center mb-24 whitespace-nowrap">
+        <ul className={`inline-flex ${styles["animate-scroll"]}`}>
           <li className="mx-8">
             <Image src="/python.png" alt="" width={100} height={100} />
           </li>
