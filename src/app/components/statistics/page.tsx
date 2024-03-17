@@ -1,33 +1,24 @@
 const StatisticsPage = () => {
   return (
     <>
-      <section className="text-gray-600 body-font mt-[30px]">
-        <div
-          className=" p-4 md:p-8 light:bg-gray-800 light:text-black-200 mx-auto mb-[30px]"
-          id="stats"
-          role="tabpanel"
-          aria-labelledby="stats-tab"
-        >
-          <dl className="flex justify-center gap-x-32 text-gray-700">
-            <div className="flex flex-col items-center justify-center">
-              <dt className="text-[44px] font-extrabold">+20</dt>
-              <dd className="mt-[-16px] font-bold text-[18px]">Projects</dd>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <dt className="text-[44px] font-extrabold">+50M</dt>
-              <dd className="mt-[-16px] font-bold text-[18px]">Line Of Code</dd>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <dt className="text-[44px] font-extrabold">+50</dt>
-              <dd className="mt-[-16px] font-bold text-[18px]">Team</dd>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <dt className="text-[44px] font-extrabold">&#8734;</dt>
-              <dd className="mt-[-16px] font-bold text-[18px]">
-                Opportunities
-              </dd>
-            </div>
-          </dl>
+      <section className="text-gray-900 body-font mt-[30px] w-full">
+        <div className="p-8 mx-auto mb-[30px] text-[44px] flex justify-center gap-28 md:gap-44 lg:gap-44 ">
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="font-extrabold">+20</h1>
+            <p className="mt-[-16px] font-bold text-[18px]">Projects</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="font-extrabold">+50M</h1>
+            <p className="mt-[-16px] font-bold text-[18px]">Line Of Code</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="font-extrabold">+50</h1>
+            <p className="mt-[-16px] font-bold text-[18px]">Team</p>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="font-extrabold">&#8734;</h1>
+            <p className="mt-[-16px] font-bold text-[18px]">Opportunities</p>
+          </div>
         </div>
       </section>
     </>

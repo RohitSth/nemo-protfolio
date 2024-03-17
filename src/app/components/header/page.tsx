@@ -18,7 +18,7 @@ const Header = () => {
             </svg>
             <span className="ml-3 text-xl">nemo</span>
           </a>
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <nav className="ml-auto flex items-center text-base justify-center">
             <a href="/" className="mr-10  text-base hover:text-[#0D7ABF]">
               Home
             </a>
@@ -34,10 +34,10 @@ const Header = () => {
             <a href="#footer" className="mr-10  text-base hover:text-[#0D7ABF]">
               Carrer
             </a>
+            <button className="inline-flex text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-base">
+              Contact
+            </button>
           </nav>
-          <button className="inline-flex text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-base">
-            Contact
-          </button>
         </div>
       </header>
     </>

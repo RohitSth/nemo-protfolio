@@ -11,7 +11,7 @@ import Info from "./components/info/page";
 
 export default function Home() {
   return (
-    <main>
+    <main style={{ width: "100vw" }}>
       <Info />
       <Header />
       <Hero />
