@@ -11,7 +11,7 @@ import Info from "./components/info/page";
 
 export default function Home() {
   return (
-    <main style={{ width: "100vw" }}>
+    <main className="mx-0 overflow-x-hidden">
       <Info />
       <Header />
       <Hero />
