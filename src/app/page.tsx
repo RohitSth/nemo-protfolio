@@ -8,7 +8,6 @@ import Customer from "./components/customer/page";
 import Testimonial from "./components/testimonial/page";
 import Footer from "./components/footer/page";
 import Info from "./components/info/page";
-import NextJsCarousel from "./components/carousel/page";
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
       <Content />
       <IndustryPage />
       <Testimonial />
-      <NextJsCarousel />
       <Customer />
       <Footer />
     </main>

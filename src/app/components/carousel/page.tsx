@@ -10,8 +10,8 @@ export default class NextJsCarousel extends Component {
       <div>
         <Carousel>
           <div>
-            <img src="/1.png" alt="image1" />
-            <p className="legend">Image 1</p>
+            <img src="/calculator.png" alt="image1" />
+            <p className="legend">Ram</p>
           </div>
           <div>
             <img src="/2.png" alt="image2" />
