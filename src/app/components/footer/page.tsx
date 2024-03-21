@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer id="footer" className="text-white body-font bg-[#0D7ABF]">
-        <div className="container px-5 py-24 mx-auto flex flex-col md:flex-row">
+        <div className="container py-24 mx-auto flex flex-col md:flex-row">
           <div className="md:w-1/4 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center">
               <svg
@@ -19,18 +19,20 @@ const Footer = () => {
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
-              <span className="ml-3 text-xl">LOGO</span>
+              <span className="ml-3 text-3xl">LOGO</span>
             </a>
-            <p className="mt-2 text-sm">INOVATE. CREATE. DOMINATE.</p>
+            <p className="mt-2 text-xl">INOVATE. CREATE. DOMINATE.</p>
             <hr className="my-8" />
-            <small>&copy; 2019 Nemo. Property All Rights Reserved</small>
+            <small className="text-lg">
+              &copy; 2019 Nemo. Property All Rights Reserved
+            </small>
           </div>
-          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div className="flex-grow flex flex-wrap md:pl-20 mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium tracking-widest text-sm mb-3">
+              <h2 className="title-font font-medium tracking-widest text-2xl mb-3">
                 Quick Links
               </h2>
-              <nav className="list-none my-10">
+              <nav className="list-none my-10 text-xl">
                 <li>
                   <a className="hover:underline">Nemo Writes</a>
                 </li>
@@ -46,10 +48,10 @@ const Footer = () => {
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium tracking-widest text-sm mb-3">
+              <h2 className="title-font font-medium tracking-widest text-2xl mb-3">
                 Contact Us
               </h2>
-              <nav className="list-none my-10">
+              <nav className="list-none my-10 text-xl">
                 <li>
                   <a className="hover:underline">
                     123 street, Chabahil first floor, Kathmandu, Nepal
@@ -63,14 +65,14 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4 flex justify-center md:justify-end">
+            {/* <div className="lg:w-1/4 md:w-1/2 w-full flex justify-end ">
               <nav className="list-none mb-10 ">
                 <li className="my-2">
                   <a>
                     <Image
                       src="/facebook.png"
-                      width={24}
-                      height={24}
+                      width={30}
+                      height={30}
                       alt="Facebook logo"
                     />
                   </a>
@@ -79,8 +81,8 @@ const Footer = () => {
                   <a>
                     <Image
                       src="/instagram.png"
-                      width={24}
-                      height={24}
+                      width={30}
+                      height={30}
                       alt="Instagram logo"
                     />
                   </a>
@@ -89,8 +91,8 @@ const Footer = () => {
                   <a>
                     <Image
                       src="/twitter-foot.png"
-                      width={24}
-                      height={24}
+                      width={30}
+                      height={30}
                       alt="Twitter logo"
                     />
                   </a>
@@ -99,8 +101,8 @@ const Footer = () => {
                   <a>
                     <Image
                       src="/youtube.png"
-                      width={24}
-                      height={24}
+                      width={30}
+                      height={30}
                       alt="YouTube logo"
                     />
                   </a>
@@ -109,14 +111,14 @@ const Footer = () => {
                   <a>
                     <Image
                       src="/linkedin-footer.png"
-                      width={24}
-                      height={24}
+                      width={30}
+                      height={30}
                       alt="LinkedIn logo"
                     />
                   </a>
                 </li>
               </nav>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

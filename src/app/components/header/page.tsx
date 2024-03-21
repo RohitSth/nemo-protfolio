@@ -20,23 +20,20 @@ const Header = () => {
           </svg>
           <span className="ml-3 text-xl">nemo</span>
         </a>
-        <nav className="ml-auto flex flex-wrap items-center text-base justify-center">
-          <a href="/" className="mr-5 text-base hover:text-[#0D7ABF]">
+        <nav className="ml-auto flex flex-wrap items-center justify-center text-xl">
+          <a href="/" className="mr-5 hover:text-[#0D7ABF]">
             Home
           </a>
-          <a
-            href="#service-page"
-            className="mr-5 text-base hover:text-[#0D7ABF]"
-          >
+          <a href="#service-page" className="mr-5  hover:text-[#0D7ABF]">
             Services
           </a>
-          <a href="#about" className="mr-5 text-base hover:text-[#0D7ABF]">
+          <a href="#about" className="mr-5  hover:text-[#0D7ABF]">
             About
           </a>
-          <a href="#footer" className="mr-5 text-base hover:text-[#0D7ABF]">
+          <a href="#footer" className="mr-5  hover:text-[#0D7ABF]">
             Career
           </a>
-          <button className="inline-flex text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-base mt-4 md:mt-0">
+          <button className="inline-flex text-white bg-[#0D7ABF] border-0 py-2 px-6 focus:outline-none hover:bg-[#0a5483] rounded-[26px] text-xl mt-4 md:mt-0">
             Contact
           </button>
         </nav>
