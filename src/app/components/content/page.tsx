@@ -10,10 +10,10 @@ const Content = () => {
           </div>
           <div className="md:w-1/4 p-12 pt-48">
             <div className="flex flex-col justify-center">
-              <h1 className="title-font text-5xl mb-4 font-bold text-black">
+              <h1 className="title-font text-3xl mb-4 font-bold text-black">
                 Our Projects
               </h1>
-              <p className="mb-4 text-2xl">
+              <p className="mb-4 text-xl">
                 We envision a future where businesses seamlessly.
               </p>
               <a

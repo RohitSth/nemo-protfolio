@@ -12,10 +12,10 @@ const Hero = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start">
-            <h2 className="text-4xl sm:text-6xl title-font font-medium text-white mt-24 mb-4 hover:text-[#2f4b5b]">
+            <h2 className="text-2xl sm:text-6xl title-font font-medium text-white mt-24 mb-4 hover:text-[#2f4b5b]">
               INNOVATE. CREATE. DOMINATE.
             </h2>
-            <div className="mt-14 mb-14 text-xl sm:text-2xl text-white max-w-xl">
+            <div className="mt-14 mb-14 text-lg sm:text-xl text-white max-w-xl">
               We envision a future where businesses seamlessly harness the power
               of evolving technologies to not only adapt to change but to thrive
               in it.

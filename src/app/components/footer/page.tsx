@@ -19,9 +19,9 @@ const Footer = () => {
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
-              <span className="ml-3 text-3xl">LOGO</span>
+              <span className="ml-3 text-2xl">LOGO</span>
             </a>
-            <p className="mt-2 text-xl">INOVATE. CREATE. DOMINATE.</p>
+            <p className="mt-2 text-lg">INOVATE. CREATE. DOMINATE.</p>
             <hr className="my-8" />
             <small className="text-lg">
               &copy; 2019 Nemo. Property All Rights Reserved
@@ -29,10 +29,10 @@ const Footer = () => {
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium tracking-widest text-2xl mb-3">
+              <h2 className="title-font font-medium tracking-widest text-xl mb-3">
                 Quick Links
               </h2>
-              <nav className="list-none my-10 text-xl">
+              <nav className="list-none my-10 text-lg">
                 <li>
                   <a className="hover:underline">Nemo Writes</a>
                 </li>
@@ -48,10 +48,10 @@ const Footer = () => {
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium tracking-widest text-2xl mb-3">
+              <h2 className="title-font font-medium tracking-widest text-xl mb-3">
                 Contact Us
               </h2>
-              <nav className="list-none my-10 text-xl">
+              <nav className="list-none my-10 text-lg">
                 <li>
                   <a className="hover:underline">
                     123 street, Chabahil first floor, Kathmandu, Nepal

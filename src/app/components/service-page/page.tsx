@@ -8,13 +8,13 @@ const ServicePage = () => {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 lg:w-1/4 md:w-1/2">
               <div>
-                <h1 className="title-font text-5xl mb-4 font-bold text-black ">
+                <h1 className="title-font text-3xl mb-4 font-bold text-black ">
                   Our Services
                 </h1>
-                <p className="mb-16 text-2xl">
+                <p className="mb-16 text-xl">
                   We envision a future where businesses seamlessly.
                 </p>
-                <div className="text-blue-500 text-xl hover:underline">
+                <div className="text-blue-500 text-lg hover:underline">
                   <a href="#">See all services &gt;</a>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const ServicePage = () => {
                 </a>
                 <div className="p-5">
                   <a href="#">
-                    <p className="mb-2 text-2xl text-black">
+                    <p className="mb-2 text-xl text-black">
                       Software & Application Development
                     </p>
                   </a>
@@ -52,7 +52,7 @@ const ServicePage = () => {
                 </a>
                 <div className="p-5">
                   <a href="#">
-                    <p className="mb-2 text-2xl text-black">
+                    <p className="mb-2 text-xl text-black">
                       Digital Marketing & Branding
                     </p>
                   </a>
@@ -72,7 +72,7 @@ const ServicePage = () => {
                 </a>
                 <div className="p-5">
                   <a href="#">
-                    <p className="mb-2 text-2xl text-black">Video Production</p>
+                    <p className="mb-2 text-xl text-black">Video Production</p>
                   </a>
                 </div>
               </div>
