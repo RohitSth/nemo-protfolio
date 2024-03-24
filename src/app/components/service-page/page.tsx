@@ -19,8 +19,8 @@ const ServicePage = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4">
-              <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg">
+            <div className="lg:w-1/4 md:w-1/2 p-4 mx-auto">
+              <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg w-full h-96">
                 <a href="#">
                   <Image
                     className="rounded-t-lg"
@@ -39,8 +39,8 @@ const ServicePage = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4">
-              <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg">
+            <div className="lg:w-1/4 md:w-1/2 p-4 mx-auto">
+              <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg w-full h-96">
                 <a href="#">
                   <Image
                     className="rounded-t-lg"
@@ -59,8 +59,8 @@ const ServicePage = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 p-4">
-              <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg">
+            <div className="lg:w-1/4 md:w-1/2 p-4 mx-auto">
+              <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-lg w-full h-96">
                 <a href="#">
                   <Image
                     className="rounded-t-lg"

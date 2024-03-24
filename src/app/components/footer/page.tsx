@@ -1,10 +1,8 @@
-import Image from "next/image";
-
 const Footer = () => {
   return (
     <>
       <footer id="footer" className="text-white body-font bg-[#0D7ABF]">
-        <div className="container py-24 mx-auto flex flex-col md:flex-row">
+        <div className="container py-24 mx-auto flex flex-col md:flex-row w-full">
           <div className="md:w-1/4 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center">
               <svg
@@ -28,11 +26,11 @@ const Footer = () => {
             </small>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium tracking-widest text-xl mb-3">
-                Quick Links
-              </h2>
+            <div className="lg:w-1/4 md:w-1/2 w-full flex justify-center">
               <nav className="list-none my-10 text-lg">
+                <h2 className="title-font font-medium tracking-widest text-xl mb-7">
+                  Quick Links
+                </h2>
                 <li>
                   <a className="hover:underline">Nemo Writes</a>
                 </li>
@@ -47,11 +45,11 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium tracking-widest text-xl mb-3">
-                Contact Us
-              </h2>
+            <div className="lg:w-1/2 md:w-1/2 w-full px-4 flex justify-center">
               <nav className="list-none my-10 text-lg">
+                <h2 className="title-font font-medium tracking-widest text-xl mb-7">
+                  Contact Us
+                </h2>
                 <li>
                   <a className="hover:underline">
                     123 street, Chabahil first floor, Kathmandu, Nepal
@@ -65,60 +63,6 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
-            {/* <div className="lg:w-1/4 md:w-1/2 w-full flex justify-end ">
-              <nav className="list-none mb-10 ">
-                <li className="my-2">
-                  <a>
-                    <Image
-                      src="/facebook.png"
-                      width={30}
-                      height={30}
-                      alt="Facebook logo"
-                    />
-                  </a>
-                </li>
-                <li className="my-2">
-                  <a>
-                    <Image
-                      src="/instagram.png"
-                      width={30}
-                      height={30}
-                      alt="Instagram logo"
-                    />
-                  </a>
-                </li>
-                <li className="my-2">
-                  <a>
-                    <Image
-                      src="/twitter-foot.png"
-                      width={30}
-                      height={30}
-                      alt="Twitter logo"
-                    />
-                  </a>
-                </li>
-                <li className="my-2">
-                  <a>
-                    <Image
-                      src="/youtube.png"
-                      width={30}
-                      height={30}
-                      alt="YouTube logo"
-                    />
-                  </a>
-                </li>
-                <li className="my-2">
-                  <a>
-                    <Image
-                      src="/linkedin-footer.png"
-                      width={30}
-                      height={30}
-                      alt="LinkedIn logo"
-                    />
-                  </a>
-                </li>
-              </nav>
-            </div> */}
           </div>
         </div>
       </footer>
