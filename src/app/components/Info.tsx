@@ -4,7 +4,7 @@ const Info = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center">
           <p className="text-black text-sm text-center sm:text-left mb-2 sm:mb-0">
-            © 2024 NEMO —
+            +977 9767220320 |
             <a
               // href="https://twitter.com/knyttneve"
               href="#"
@@ -12,7 +12,7 @@ const Info = () => {
               className="text-black ml-1"
               target="_blank"
             >
-              @socials_link
+              Chabahil, Kathmandu
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

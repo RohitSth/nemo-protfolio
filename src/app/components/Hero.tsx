@@ -4,7 +4,7 @@ const Hero = () => {
       className="body-font bg-cover bg-no-repeat bg-center flex justify-between"
       style={{
         backgroundImage:
-          "url(https://imgs.search.brave.com/arCBS1l8hH6UFU_8TraqBqcNqGwmXAktksFaVskI_4k/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE0/ODM3Mjg2NDIzODct/NmMzYmRkNmM5M2U1/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRaOGZH/MXZkVzUwWVdsdWMz/eGxibnd3Zkh3d2ZI/eDhNQT09)",
+          "url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf3c8e3b-3d47-474b-8d26-fbddddf63586/dg6n309-6133d487-9aca-40f1-9a66-e7c2efe47ccc.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmM2M4ZTNiLTNkNDctNDc0Yi04ZDI2LWZiZGRkZGY2MzU4NlwvZGc2bjMwOS02MTMzZDQ4Ny05YWNhLTQwZjEtOWE2Ni1lN2MyZWZlNDdjY2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.h_JTc7m0-fxoIY5hkORs2K7EQFSLLzyTNSYQdwDKlqU)",
         backgroundSize: "cover",
         backgroundPosition: "right",
       }}
@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start">
-            <h2 className="text-2xl sm:text-6xl title-font font-medium text-white mt-24 mb-4 hover:text-[#2f4b5b]">
+            <h2 className="text-2xl sm:text-6xl title-font font-medium text-white mt-24 mb-4 hover:text-[#0d7abf]">
               INNOVATE. CREATE. DOMINATE.
             </h2>
             <div className="mt-14 mb-14 text-lg sm:text-xl text-white max-w-xl">

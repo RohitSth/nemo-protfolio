@@ -23,7 +23,7 @@ const Content = () => {
               <h1 className="title-font text-3xl mb-4 font-bold text-black">
                 Our Projects
               </h1>
-              <p className="mb-4 text-xl">
+              <p className="mb-4 text-xl text-gray-600">
                 We envision a future where businesses seamlessly.
               </p>
               <a
